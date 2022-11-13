@@ -23,7 +23,6 @@ export default class Address extends BaseModel {
   @column()
   public countryId: number
 
-
   @column.dateTime({ autoCreate: true })
   public createdAt: DateTime
 
